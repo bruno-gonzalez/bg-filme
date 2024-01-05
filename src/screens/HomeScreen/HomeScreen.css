@@ -1,0 +1,14 @@
+.container__titulo {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 3px solid #8806d3;
+    margin: .5em 0;
+    padding: .2em 0;
+}

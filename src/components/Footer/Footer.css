@@ -1,24 +1,22 @@
 .container__footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #161719;
-    color: #fff;
-    padding: .5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  background-color: #161719;
+  color: #fff;
 }
 
-.container__footer img{
-    width: 250px;
+.container__footer img {
+  width: 250px;
 }
 
-.container__footer div {
-    width: 100vw;
-    text-align: center;
+.container__footer span {
+  margin: 0.5em 0;
 }
 
 .container__footer a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }

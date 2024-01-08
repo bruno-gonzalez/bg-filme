@@ -8,13 +8,24 @@ const Footer = () => {
       <footer className="container__footer">
         <img src={logo} alt="Logo" />
         <span>
-          <a href="https://developer.themoviedb.org/docs/getting-started" target="_blank">API reference</a>
+          <a
+            href="https://developer.themoviedb.org/docs/getting-started"
+            target="_blank"
+            rel="noreferrer"
+          >
+            API reference
+          </a>
         </span>
-        <div>
-          <span>
-            Desenvolvido por <a href="https://github.com/bruno-gonzalez" target="_blank"> Bruno Torres</a>
-          </span>
-        </div>
+        <span>
+          Desenvolvido por {""} 
+          <a
+            href="https:/Sgithub.com/bruno-gonzalez"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bruno Torres
+          </a>
+        </span>
       </footer>
     </>
   );

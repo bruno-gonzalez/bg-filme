@@ -52,6 +52,7 @@ const FilmesScreen = ({ baseImgURL }) => {
       .then(function (response) {
         setFilmes(response.data.results);
       })
+      .then((resposta) => console.log(filmes))
       .catch(function (error) {
         console.error(error);
       });

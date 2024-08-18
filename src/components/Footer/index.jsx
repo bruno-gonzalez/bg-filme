@@ -19,7 +19,7 @@ const Footer = () => {
         <span>
           Desenvolvido por {""} 
           <a
-            href="https:/Sgithub.com/bruno-gonzalez"
+            href="https:/github.com/bruno-gonzalez"
             target="_blank"
             rel="noreferrer"
           >
